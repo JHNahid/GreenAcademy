@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Academy</title>    <!-- font link here -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    
+    <!-- boostrap link here -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    
+    <!-- css link here -->
+    <link rel="stylesheet" href="../sass/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    
+    
+</head>
+<body>
+  <header>
+    <!-- === start main menu === -->
+    <div class="menu">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../images/logo-1.png" alt=""></a>
+          <div class="dropdown ms-auto user-menu-for-mobile">
+            <button class="btn btn-secondary dropdown-toggle user-name-nav" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="../images/men.jpg" alt="">
+              <h3>User Name</h3>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../admin/index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a></li>
+              <li><a class="dropdown-item" href="#"><span><img src="../images/setting.png" alt=""></span>Setting</a></li>
+            </ul>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+              </svg>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home
+                  <img src="../images/green-icon.png" alt="">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../courses.html">Courses
+                  <img src="../images/green-icon.png" alt=""></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../about.html">About
+                  <img src="../images/green-icon.png" alt=""></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact.html">Contact
+                  <img src="../images/green-icon.png" alt=""></a>
+              </li>
+            </ul>
+            <div class="dropdown ms-auto user-menu-for-pc">
+              <button class="btn btn-secondary dropdown-toggle user-name-nav " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="../images/men.jpg" alt="">
+                <h3>User Name</h3>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../admin/index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a></li>
+                <li><a class="dropdown-item" href="#"><span><img src="../images/setting.png" alt=""></span>Setting</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- === end main-menu === -->
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-md-3 mg-n">
+        <div class="dashboard-profile">
+          <div class="profile">
+            <div class="user-img">
+              <img src="../images/men.jpg" alt="" id="photo">
+              <input type="file" id="file">
+              <label for="file" id="uploadbtn"><p>Edit image<br><i class="far fa-edit"></i></p></label>
+            </div>
+            <div class="pro-text">
+              <h3>Ahmed</h3>
+              <span>ahmed_123</span>
+            </div>
+          </div>
+          <div class="side-menu">
+            <a href="index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a>
+            <a href="profile.html"><span><img src="../images/profile.png" alt=""></span>Profile </a>
+            <a href="coures.html"><span><img src="../images/course.png" alt=""></span>Coures</a>
+            <a href="my-unity.html"><span><img src="../images/my-unity.png" alt=""></span>My Unity</a>
+            <a href="finance.html"><span><img src="../images/finance.png" alt=""></span>Finance</a>
+            <a class="active" href="ranking.html"><span><img src="../images/ranking.png" alt=""></span>Ranking</a>
+          </div>
+          <div class="dropdown extra-nav">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" style="height: 30px; width: 30px; color:black;" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 4.5h14.25M3 9h9.75M3 13.5h9.75m4.5-4.5v12m0 0-3.75-3.75M17.25 21 21 17.25" />
+              </svg>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li> <a href="index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a></li>
+              <li><a href="profile.html"><span><img src="../images/profile.png" alt=""></span>Profile </a></li>
+              <li><a href="coures.html"><span><img src="../images/course.png" alt=""></span>Coures</a></li>
+              <li><a href="my-unity.html"><span><img src="../images/my-unity.png" alt=""></span>My Unity</a></li>
+              <li><a href="finance.html"><span><img src="../images/finance.png" alt=""></span>Finance</a></li>
+              <li><a class="active" href="ranking.html"><span><img src="../images/ranking.png" alt=""></span>Ranking</a></li>
+            </ul>
+          </div>
+        </div> 
+      </div>
+      <!-- ===== -->
+      <div class="col-lg-10 col-md-9 right-dashboard">
+        <div class="row">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link b-f active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#rising-star" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                  <img src="../images/star-level (1).png" alt="">
+                  <h4>Rising Star Fund</h4>
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#star" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                  <img src="../images/star-level (2).png" alt="">
+                  <h4>Star Fund</h4>
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#super-star" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                  <img src="../images/star-level (4).png" alt="">
+                  <h4>Super Star Fund</h4>
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#mega-star" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                  <img src="../images/star-level (5).png" alt="">
+                  <h4>Mega Star Fund</h4>
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link b-r" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#supreme" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                  <img src="../images/star-level (6).png" alt="">
+                  <h4>Supreme Fund</h4>
+                </button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="rising-star" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <div class="rank-up">
+                  <div class="top-men-box thard">
+                    <div class="pic">
+                      <img src="../images/men.jpg" alt="">
+                      <div class="position">
+                        <h4>03</h4>
+                      </div>
+                    </div>
+                    <div class="top-name">
+                      <img src="../images/poient green.png" alt="">
+                      <h3>Nahid</h3>
+                    </div>
+                  </div>
+                  <div class="top-men-box first">
+                    <div class="pic">
+                      <img src="../images/men.jpg" alt="">
+                      <div class="position">
+                        <h4>01</h4>
+                      </div>
+                    </div>
+                    <div class="top-name">
+                      <img src="../images/poient red.png" alt="">
+                      <h3>Ahmed</h3>
+                    </div>
+                  </div>
+                  <div class="top-men-box second">
+                    <div class="pic">
+                      <img src="../images/men.jpg" alt="">
+                      <div class="position">
+                        <h4>02</h4>
+                      </div>
+                    </div>
+                    <div class="top-name">
+                      <img src="../images/poient-parpul.png" alt="">
+                      <h3>Siam</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="star-titel-name">
+                  <h2>Rising Star Fund Rank</h2>
+                </div>
+                <div class="ranking-tabel">
+                  <div class="table-box">
+                    <div class="table-row table-head">
+                      <div class="table-cell">
+                        <p class="bold">Profile</p>
+                      </div>
+                      <div class="table-cell">
+                        <p class="bold">Name</p>
+                      </div>
+                      <div class="table-cell">
+                        <p class="bold">Level</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>ahmed</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>nahid</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>siam</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>manik</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>mintu</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>Akash</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>sakib</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="star" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                <div class="rank-up">
+                  <div class="top-men-box thard">
+                    <div class="pic">
+                      <img src="../images/men.jpg" alt="">
+                      <div class="position">
+                        <h4>03</h4>
+                      </div>
+                    </div>
+                    <div class="top-name">
+                      <img src="../images/poient green.png" alt="">
+                      <h3>Sani</h3>
+                    </div>
+                  </div>
+                  <div class="top-men-box first">
+                    <div class="pic">
+                      <img src="../images/men.jpg" alt="">
+                      <div class="position">
+                        <h4>01</h4>
+                      </div>
+                    </div>
+                    <div class="top-name">
+                      <img src="../images/poient red.png" alt="">
+                      <h3>usama</h3>
+                    </div>
+                  </div>
+                  <div class="top-men-box second">
+                    <div class="pic">
+                      <img src="../images/men.jpg" alt="">
+                      <div class="position">
+                        <h4>02</h4>
+                      </div>
+                    </div>
+                    <div class="top-name">
+                      <img src="../images/poient-parpul.png" alt="">
+                      <h3>Siam</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="star-titel-name">
+                  <h2>Star Fund Rank</h2>
+                </div>
+                <div class="ranking-tabel">
+                  <div class="table-box">
+                    <div class="table-row table-head">
+                      <div class="table-cell">
+                        <p class="bold">Profile</p>
+                      </div>
+                      <div class="table-cell">
+                        <p class="bold">Name</p>
+                      </div>
+                      <div class="table-cell">
+                        <p class="bold">Level</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>ahmed</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>nahid</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>siam</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>manik</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>mintu</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>Akash</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>sakib</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="super-star" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                <div class="rank-up">
+                  <div class="top-men-box thard">
+                    <div class="pic">
+                      <img src="../images/men.jpg" alt="">
+                      <div class="position">
+                        <h4>03</h4>
+                      </div>
+                    </div>
+                    <div class="top-name">
+                      <img src="../images/poient green.png" alt="">
+                      <h3>Nahid</h3>
+                    </div>
+                  </div>
+                  <div class="top-men-box first">
+                    <div class="pic">
+                      <img src="../images/men.jpg" alt="">
+                      <div class="position">
+                        <h4>01</h4>
+                      </div>
+                    </div>
+                    <div class="top-name">
+                      <img src="../images/poient red.png" alt="">
+                      <h3>Ahmed</h3>
+                    </div>
+                  </div>
+                  <div class="top-men-box second">
+                    <div class="pic">
+                      <img src="../images/men.jpg" alt="">
+                      <div class="position">
+                        <h4>02</h4>
+                      </div>
+                    </div>
+                    <div class="top-name">
+                      <img src="../images/poient-parpul.png" alt="">
+                      <h3>Siam</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="star-titel-name">
+                  <h2>Super Star Fund Rank</h2>
+                </div>
+                <div class="ranking-tabel">
+                  <div class="table-box">
+                    <div class="table-row table-head">
+                      <div class="table-cell">
+                        <p class="bold">Profile</p>
+                      </div>
+                      <div class="table-cell">
+                        <p class="bold">Name</p>
+                      </div>
+                      <div class="table-cell">
+                        <p class="bold">Level</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>ahmed</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>nahid</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>siam</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>manik</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>mintu</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>Akash</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>sakib</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="mega-star" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+                <div class="rank-up">
+                  <div class="top-men-box thard">
+                    <div class="pic">
+                      <img src="../images/men.jpg" alt="">
+                      <div class="position">
+                        <h4>03</h4>
+                      </div>
+                    </div>
+                    <div class="top-name">
+                      <img src="../images/poient green.png" alt="">
+                      <h3>Naeem</h3>
+                    </div>
+                  </div>
+                  <div class="top-men-box first">
+                    <div class="pic">
+                      <img src="../images/men.jpg" alt="">
+                      <div class="position">
+                        <h4>01</h4>
+                      </div>
+                    </div>
+                    <div class="top-name">
+                      <img src="../images/poient red.png" alt="">
+                      <h3>nahid</h3>
+                    </div>
+                  </div>
+                  <div class="top-men-box second">
+                    <div class="pic">
+                      <img src="../images/men.jpg" alt="">
+                      <div class="position">
+                        <h4>02</h4>
+                      </div>
+                    </div>
+                    <div class="top-name">
+                      <img src="../images/poient-parpul.png" alt="">
+                      <h3>Siam</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="star-titel-name">
+                  <h2>Mega Star Fund Rank</h2>
+                </div>
+                <div class="ranking-tabel">
+                  <div class="table-box">
+                    <div class="table-row table-head">
+                      <div class="table-cell">
+                        <p class="bold">Profile</p>
+                      </div>
+                      <div class="table-cell">
+                        <p class="bold">Name</p>
+                      </div>
+                      <div class="table-cell">
+                        <p class="bold">Level</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>ahmed</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>nahid</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>siam</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>manik</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>mintu</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>Akash</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>sakib</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="supreme" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">
+                <div class="rank-up">
+                  <div class="top-men-box thard">
+                    <div class="pic">
+                      <img src="../images/men.jpg" alt="">
+                      <div class="position">
+                        <h4>03</h4>
+                      </div>
+                    </div>
+                    <div class="top-name">
+                      <img src="../images/poient green.png" alt="">
+                      <h3>siam</h3>
+                    </div>
+                  </div>
+                  <div class="top-men-box first">
+                    <div class="pic">
+                      <img src="../images/men.jpg" alt="">
+                      <div class="position">
+                        <h4>01</h4>
+                      </div>
+                    </div>
+                    <div class="top-name">
+                      <img src="../images/poient red.png" alt="">
+                      <h3>nahid</h3>
+                    </div>
+                  </div>
+                  <div class="top-men-box second">
+                    <div class="pic">
+                      <img src="../images/men.jpg" alt="">
+                      <div class="position">
+                        <h4>02</h4>
+                      </div>
+                    </div>
+                    <div class="top-name">
+                      <img src="../images/poient-parpul.png" alt="">
+                      <h3>Naeem</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="star-titel-name">
+                  <h2>Supreme Fund Rank</h2>
+                </div>
+                <div class="ranking-tabel">
+                  <div class="table-box">
+                    <div class="table-row table-head">
+                      <div class="table-cell">
+                        <p class="bold">Profile</p>
+                      </div>
+                      <div class="table-cell">
+                        <p class="bold">Name</p>
+                      </div>
+                      <div class="table-cell">
+                        <p class="bold">Level</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>ahmed</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>nahid</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>siam</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>manik</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>mintu</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>Akash</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                    <div class="table-row table-secon">
+                      <div class="table-cell">
+                        <div class="pic-img">
+                          <div class="pic">
+                            <img src="../images/men.jpg" alt="">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="table-cell">
+                        <p>sakib</p>
+                      </div>
+                      <div class="table-cell">
+                        <p>4</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/jquery.sticky.js"></script>
+<script src="../js/custom.js"></script>
+</body>
+</html>

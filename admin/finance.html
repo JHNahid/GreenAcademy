@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Academy</title>
+    <!-- font link here -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+        
+    <!-- boostrap link here -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+        
+    <!-- css link here -->
+    <link rel="stylesheet" href="../sass/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+        
+</head>
+<body>
+  <header>
+    <!-- === start main menu === -->
+    <div class="menu">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../images/logo-1.png" alt=""></a>
+          <div class="dropdown ms-auto user-menu-for-mobile">
+            <button class="btn btn-secondary dropdown-toggle user-name-nav" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="../images/men.jpg" alt="">
+              <h3>User Name</h3>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../admin/index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a></li>
+              <li><a class="dropdown-item" href="#"><span><img src="../images/setting.png" alt=""></span>Setting</a></li>
+            </ul>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+              </svg>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home
+                  <img src="../images/green-icon.png" alt="">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../courses.html">Courses
+                  <img src="../images/green-icon.png" alt=""></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../about.html">About
+                  <img src="../images/green-icon.png" alt=""></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact.html">Contact
+                  <img src="../images/green-icon.png" alt=""></a>
+              </li>
+            </ul>
+            <div class="dropdown ms-auto user-menu-for-pc">
+              <button class="btn btn-secondary dropdown-toggle user-name-nav " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="../images/men.jpg" alt="">
+                <h3>User Name</h3>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../admin/index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a></li>
+                <li><a class="dropdown-item" href="#"><span><img src="../images/setting.png" alt=""></span>Setting</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- === end main-menu === -->
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <!-- start side menu -->
+      <div class="col-lg-2 col-md-3 mg-n">
+          <div class="dashboard-profile">
+            <div class="profile">
+              <div class="user-img">
+                <img src="../images/men.jpg" alt="" id="photo">
+                <input type="file" id="file">
+                <label for="file" id="uploadbtn"><p>Edit image<br><i class="far fa-edit"></i></p></label>
+              </div>
+              <div class="pro-text">
+                <h3>Ahmed</h3>
+                <span>ahmed_123</span>
+              </div>
+            </div>
+            <!-- = start main sidebar = -->
+            <div class="side-menu">
+              <a href="index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a>
+              <a href="profile.html"><span><img src="../images/profile.png" alt=""></span>Profile </a>
+              <a href="coures.html"><span><img src="../images/course.png" alt=""></span>Coures</a>
+              <a href="my-unity.html"><span><img src="../images/my-unity.png" alt=""></span>My Unity</a>
+              <a class="active" href="finance.html"><span><img src="../images/finance.png" alt=""></span>Finance</a>
+              <a href="ranking.html"><span><img src="../images/ranking.png" alt=""></span>Ranking</a>
+            </div>
+            <!-- = end main sidebar = -->
+            
+            <!-- = start mobile sidebar = -->
+            <div class="dropdown extra-nav">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" style="height: 30px; width: 30px; color:black;" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 4.5h14.25M3 9h9.75M3 13.5h9.75m4.5-4.5v12m0 0-3.75-3.75M17.25 21 21 17.25" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="active" href="index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a></li>
+                <li><a href="profile.html"><span><img src="../images/profile.png" alt=""></span>Profile </a></li>
+                <li><a href="coures.html"><span><img src="../images/course.png" alt=""></span>Coures</a></li>
+                <li><a href="my-unity.html"><span><img src="../images/my-unity.png" alt=""></span>My Unity</a></li>
+                <li><a href="finance.html"><span><img src="../images/finance.png" alt=""></span>Finance</a></li>
+                <li><a href="ranking.html"><span><img src="../images/ranking.png" alt=""></span>Ranking</a></li>
+              </ul>
+            </div>
+            <!-- = start mobile sidebar = -->
+          </div>
+      </div>
+      <!-- end side menu -->
+      <div class="col-lg-10 col-md-9 right-dashboard">
+          <div class="row">
+            <!--  -->
+            <div class="col-md-12 col-lg-4">
+              <div class="balance-box">
+                <img src="../images/AB.png" alt="">
+                <h4>Account Balance</h4>
+                <h3>10,999</h3>
+                <div class="line"></div>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#DepositModal" class="db">
+                  <img src="../images/DB.png" alt="">
+                  <h5>Deposit Balance +</h5>
+                </a>
+                <!-- modal Deposit-->
+                <div class="modal fade" id="DepositModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <img src="../images/DB.png" alt="">
+                        <h4>Deposit</h4>
+                      </div>
+                      <div class="modal-body">
+                        <h4>Select Deposit method:</h4>
+                        <select class="form-select" aria-label="Default select example">
+                          <option value="1"><img src="../images/rocket.png" alt=""> Roket</option>
+                          <option value="2"><img src="../images/rocket.png" alt=""> Bkash</option>
+                          <option value="3"><img src="../images/rocket.png" alt=""> Upay</option>
+                          <option value="4"><img src="../images/rocket.png" alt=""> Nogod</option>
+                          <option value="5"><img src="../images/rocket.png" alt=""> Bank</option>
+                        </select>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button">Deposit<div class="after"></div></button>
+                        <button type="button" data-bs-dismiss="modal">Cancel<div class="after"></div></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end modal Deposit -->
+              </div>
+            </div>
+            <!--  -->
+            <div class="col-md-12 col-lg-4">
+              <div class="balance-box">
+                <img src="../images/payout.png" alt="">
+                <h4>Ready To Payout</h4>
+                <h3>10,999</h3>
+                <div class="line"></div>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#WithdrawModal" class="db">
+                  <img src="../images/payout.png" alt="">
+                  <h5>Withdraw Balance +</h5>
+                </a>
+                <!-- Modal withdraw -->
+                <div class="modal fade" id="WithdrawModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <img src="../images/payout.png" alt="">
+                        <h4>Payout</h4>
+                      </div>
+                      <div class="modal-body">
+                        <h4>Select payout method:</h4>
+                        <select class="form-select" aria-label="Default select example">
+                          <option value="1"><img src="../images/rocket.png" alt=""> Roket</option>
+                          <option value="2"><img src="../images/rocket.png" alt=""> Bkash</option>
+                          <option value="3"><img src="../images/rocket.png" alt=""> Upay</option>
+                          <option value="4"><img src="../images/rocket.png" alt=""> Nogod</option>
+                          <option value="5"><img src="../images/rocket.png" alt=""> Bank</option>
+                        </select>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button">Withdraw<div class="after"></div></button>
+                        <button type="button" data-bs-dismiss="modal">Cancel<div class="after"></div></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- end modal withdraw-->
+              </div>
+            </div>
+            <!--  -->
+            <div class="col-md-12 col-lg-4">
+              <div class="income-box">
+                <div class="ib-img">
+                  <img src="../images/total-incom.png" alt="">
+                </div>
+                <div class="ib-text">
+                  <h3>Total Income</h3>
+                  <p>10,000$</p>
+                </div>
+                <div class="conner-tr">
+                  <img src="../images/income-conner.png" alt="">
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="col-md-12">
+              <div class="refar-table">
+                <div class="rt-titel">
+                  <h2><img src="../images/rt.png" alt="">Payment History</h2>
+                </div>
+                <div class="table-box">
+                  <div class="table-row table-head border">
+                    <div class="table-cell">
+                      <p class="bold">Title</p>
+                    </div>
+                    <div class="table-cell">
+                      <p class="bold">Date</p>
+                    </div>
+                    <div class="table-cell">
+                      <p class="bold">Amount</p>
+                    </div>
+                    <div class="table-cell">
+                      <p class="bold">Status</p>
+                    </div>
+                  </div>
+                  <div class="table-row table-secon">
+                    <div class="table-cell">
+                      <p>Deposit</p>
+                    </div>
+                    <div class="table-cell">
+                      <p>02/02/2024</p>
+                    </div>
+                    <div class="table-cell">
+                      <p>1,000</p>
+                    </div>
+                    <div class="table-cell">
+                      <p><svg xmlns="http://www.w3.org/2000/svg" style="height: 30px;" viewBox="0 0 18 18"><path d="M4 14 L11 14 11 12.6 6.8 12.6 13 6.4 11.6 5 5.4 11.2 5.4 7 4 7 Z" style="fill: green" /></svg></p>
+                    </div>
+                  </div>
+                  <div class="table-row table-secon">
+                    <div class="table-cell">
+                      <p>Withdraw</p>
+                    </div>
+                    <div class="table-cell">
+                      <p>03/02/2024</p>
+                    </div>
+                    <div class="table-cell">
+                      <p>1,000</p>
+                    </div>
+                    <div class="table-cell">
+                      <p><svg xmlns="http://www.w3.org/2000/svg" style="height: 30px;" 
+                      viewBox="0 0 18 18"><path d="M14 4 L7 4 7 5.4 11.2 5.4 5 11.6 6.4 13 12.6 6.8 12.6 11 14 11 Z" style="fill: red" /></svg></p>
+                    </div>
+                  </div>
+                  <div class="table-row table-secon">
+                    <div class="table-cell">
+                      <p>Deposit</p>
+                    </div>
+                    <div class="table-cell">
+                      <p>02/02/2024</p>
+                    </div>
+                    <div class="table-cell">
+                      <p>1,000</p>
+                    </div>
+                    <div class="table-cell">
+                      <p><svg xmlns="http://www.w3.org/2000/svg" style="height: 30px;" viewBox="0 0 18 18"><path d="M4 14 L11 14 11 12.6 6.8 12.6 13 6.4 11.6 5 5.4 11.2 5.4 7 4 7 Z" style="fill: green" /></svg></p>
+                    </div>
+                  </div>
+                  <div class="table-row table-secon">
+                    <div class="table-cell">
+                      <p>Deposit</p>
+                    </div>
+                    <div class="table-cell">
+                      <p>02/02/2024</p>
+                    </div>
+                    <div class="table-cell">
+                      <p>1,000</p>
+                    </div>
+                    <div class="table-cell">
+                      <p><svg xmlns="http://www.w3.org/2000/svg" style="height: 30px;" viewBox="0 0 18 18"><path d="M4 14 L11 14 11 12.6 6.8 12.6 13 6.4 11.6 5 5.4 11.2 5.4 7 4 7 Z" style="fill: green" /></svg></p>
+                    </div>
+                  </div>
+                  <div class="table-row table-secon">
+                    <div class="table-cell">
+                      <p>Deposit</p>
+                    </div>
+                    <div class="table-cell">
+                      <p>02/02/2024</p>
+                    </div>
+                    <div class="table-cell">
+                      <p>1,000</p>
+                    </div>
+                    <div class="table-cell">
+                      <p><svg xmlns="http://www.w3.org/2000/svg" style="height: 30px;" viewBox="0 0 18 18"><path d="M4 14 L11 14 11 12.6 6.8 12.6 13 6.4 11.6 5 5.4 11.2 5.4 7 4 7 Z" style="fill: green" /></svg></p>
+                    </div>
+                  </div>
+                  <div class="table-row table-secon">
+                    <div class="table-cell">
+                      <p>Deposit</p>
+                    </div>
+                    <div class="table-cell">
+                      <p>02/02/2024</p>
+                    </div>
+                    <div class="table-cell">
+                      <p>1,000</p>
+                    </div>
+                    <div class="table-cell">
+                      <p><svg xmlns="http://www.w3.org/2000/svg" style="height: 30px;" viewBox="0 0 18 18"><path d="M4 14 L11 14 11 12.6 6.8 12.6 13 6.4 11.6 5 5.4 11.2 5.4 7 4 7 Z" style="fill: green" /></svg></p>
+                    </div>
+                  </div>
+                  <div class="table-row table-secon">
+                    <div class="table-cell">
+                      <p>Deposit</p>
+                    </div>
+                    <div class="table-cell">
+                      <p>02/02/2024</p>
+                    </div>
+                    <div class="table-cell">
+                      <p>1,000</p>
+                    </div>
+                    <div class="table-cell">
+                      <p><svg xmlns="http://www.w3.org/2000/svg" style="height: 30px;" viewBox="0 0 18 18"><path d="M4 14 L11 14 11 12.6 6.8 12.6 13 6.4 11.6 5 5.4 11.2 5.4 7 4 7 Z" style="fill: green" /></svg></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/jquery.sticky.js"></script>
+<script src="../js/custom.js"></script>
+</body>
+</html>

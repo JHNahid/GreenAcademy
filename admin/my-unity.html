@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Academy</title>
+    <!-- font link here -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+        
+    <!-- boostrap link here -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+        
+        
+     <!-- css link here -->
+    <link rel="stylesheet" href="../sass/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+        
+</head>
+<body>
+  <header>
+    <!-- === start main menu === -->
+    <div class="menu">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="../images/logo-1.png" alt=""></a>
+          <div class="dropdown ms-auto user-menu-for-mobile">
+            <button class="btn btn-secondary dropdown-toggle user-name-nav" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="../images/men.jpg" alt="">
+              <h3>User Name</h3>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../admin/index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a></li>
+              <li><a class="dropdown-item" href="#"><span><img src="../images/setting.png" alt=""></span>Setting</a></li>
+            </ul>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+              </svg>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home
+                  <img src="../images/green-icon.png" alt="">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../courses.html">Courses
+                  <img src="../images/green-icon.png" alt=""></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../about.html">About
+                  <img src="../images/green-icon.png" alt=""></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact.html">Contact
+                  <img src="../images/green-icon.png" alt=""></a>
+              </li>
+            </ul>
+            <div class="dropdown ms-auto user-menu-for-pc">
+              <button class="btn btn-secondary dropdown-toggle user-name-nav " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="../images/men.jpg" alt="">
+                <h3>User Name</h3>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../admin/index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a></li>
+                <li><a class="dropdown-item" href="#"><span><img src="../images/setting.png" alt=""></span>Setting</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- === end main-menu === -->
+  </header>
+
+  <div class="container">
+    <div class="row"> 
+      <!-- ==== Side-menu start Here ==== -->
+      <div class="col-lg-2 col-md-3 mg-n">
+        <div class="dashboard-profile">
+          <div class="profile">
+            <div class="user-img">
+              <img src="../images/men.jpg" alt="" id="photo">
+              <input type="file" id="file">
+              <label for="file" id="uploadbtn"><p>Edit image<br><i class="far fa-edit"></i></p></label>
+            </div>
+            <div class="pro-text">
+              <h3>Ahmed</h3>
+              <span>ahmed_123
+              </span>
+            </div>
+          </div>
+          <div class="side-menu">
+            <a href="index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a>
+            <a href="profile.html"><span><img src="../images/profile.png" alt=""></span>Profile </a>
+            <a href="coures.html"><span><img src="../images/course.png" alt=""></span>Coures</a>
+            <a class="active" href="my-unity.html"><span><img src="../images/my-unity.png" alt=""></span>My Unity</a>
+            <a href="finance.html"><span><img src="../images/finance.png" alt=""></span>Finance</a>
+            <a href="ranking.html"><span><img src="../images/ranking.png" alt=""></span>Ranking</a>
+          </div>
+          <!-- ====== end main sidebar ====== -->
+          <div class="dropdown extra-nav">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              <svg xmlns="http://www.w3.org/2000/svg" style="height: 30px; width: 30px; color:black;" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 4.5h14.25M3 9h9.75M3 13.5h9.75m4.5-4.5v12m0 0-3.75-3.75M17.25 21 21 17.25" />
+              </svg>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a href="index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a></li>
+              <li><a href="profile.html"><span><img src="../images/profile.png" alt=""></span>Profile </a></li>
+              <li><a href="coures.html"><span><img src="../images/course.png" alt=""></span>Coures</a></li>
+              <li><a class="active" href="my-unity.html"><span><img src="../images/my-unity.png" alt=""></span>My Unity</a></li>
+              <li><a href="finance.html"><span><img src="../images/finance.png" alt=""></span>Finance</a></li>
+              <li><a href="ranking.html"><span><img src="../images/ranking.png" alt=""></span>Ranking</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- ==== Side-menu end Here ==== -->
+      <!-- ===== -->
+      <div class="col-lg-10 col-md-9 right-dashboard">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="refar">
+              <h3>Refer by: Green Academy</h3>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="refar-table">
+              <div class="table-box">
+                <div class="table-row table-head">
+                  <div class="table-cell">
+                    <p class="bold">Serial no</p>
+                  </div>
+                  <div class="table-cell">
+                    <p class="bold">Name</p>
+                  </div>
+                  <div class="table-cell">
+                    <p class="bold">Phone</p>
+                  </div>
+                  <div class="table-cell">
+                    <p class="bold">Total Referral</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>View</p>
+                  </div>
+                </div>
+                <div class="table-row table-secon">
+                  <div class="table-cell">
+                    <p>01</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>Ahmed</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>+880123456789</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>08</p>
+                  </div>
+                  <div class="table-cell">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-ellipsis-h"></i></button>
+                  </div>
+                </div>
+                <div class="table-row table-secon">
+                  <div class="table-cell">
+                    <p>02</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>Ahmed</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>+880123456789</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>07</p>
+                  </div>
+                  <div class="table-cell">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-ellipsis-h"></i></button>
+                  </div>
+                </div>
+                <div class="table-row table-secon">
+                  <div class="table-cell">
+                    <p>03</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>Ahmed</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>+880123456789</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>06</p>
+                  </div>
+                  <div class="table-cell">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-ellipsis-h"></i></button>
+                  </div>
+                </div>
+                <div class="table-row table-secon">
+                  <div class="table-cell">
+                    <p>04</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>Ahmed</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>+880123456789</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>06</p>
+                  </div>
+                  <div class="table-cell">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-ellipsis-h"></i></button>
+                  </div>
+                </div>
+                <div class="table-row table-secon">
+                  <div class="table-cell">
+                    <p>05</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>Ahmed</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>+880123456789</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>05</p>
+                  </div>
+                  <div class="table-cell">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-ellipsis-h"></i></button>
+                  </div>
+                </div>
+                <div class="table-row table-secon">
+                  <div class="table-cell">
+                    <p>06</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>Ahmed</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>+880123456789</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>04</p>
+                  </div>
+                  <div class="table-cell">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-ellipsis-h"></i></button>
+                  </div>
+                </div>
+                <div class="table-row table-secon">
+                  <div class="table-cell">
+                    <p>07</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>Ahmed</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>+880123456789</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>04</p>
+                  </div>
+                  <div class="table-cell">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-ellipsis-h"></i></button>
+                  </div>
+                </div>
+                <div class="table-row table-secon">
+                  <div class="table-cell">
+                    <p>08</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>Ahmed</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>+880123456789</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>03</p>
+                  </div>
+                  <div class="table-cell">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-ellipsis-h"></i></button>
+                  </div>
+                </div>
+                <div class="table-row table-secon">
+                  <div class="table-cell">
+                    <p>09</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>Ahmed</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>+880123456789</p>
+                  </div>
+                  <div class="table-cell">
+                    <p>02</p>
+                  </div>
+                  <div class="table-cell">
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fas fa-ellipsis-h"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <button type="button" class="btn-close close-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="img-20">
+                      <img src="../images/image 20.png" alt="">
+                      <h3>Referral Level</h3>
+                    </div>
+                    <div class="refar-level">
+                      <div class="rl">
+                        <h3>Level</h3>
+                        <h3>Referral</h3>
+                      </div>
+                      <div class="lr">
+                        <h4 class="pl-0">level-1</h4>
+                        <h4 class="dhasah"></h4>
+                        <h4>8</h4>
+                      </div>
+                      <div class="lr">
+                        <h4 class="pl-0">level-2</h4>
+                        <h4 class="dhasah"></h4>
+                        <h4>6</h4>
+                      </div>
+                      <div class="lr">
+                        <h4 class="pl-0">level-3</h4>
+                        <h4 class="dhasah"></h4>
+                        <h4>3</h4>
+                      </div>
+                      <div class="lr">
+                        <h4 class="pl-0">level-4</h4>
+                        <h4 class="dhasah"></h4>
+                        <h4>3</h4>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/jquery.sticky.js"></script>
+<script src="../js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Academy</title>
+    <!-- font link here -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    
+    <!-- boostrap link here -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    
+    
+    <!-- css link here -->
+    <link rel="stylesheet" href="../sass/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+
+</head>
+<body>
+  <header>
+    <!-- === start main menu === -->
+    <div class="menu">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../images/logo-1.png" alt=""></a>
+          <div class="dropdown ms-auto user-menu-for-mobile">
+            <button class="btn btn-secondary dropdown-toggle user-name-nav" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="../images/men.jpg" alt="">
+              <h3>User Name</h3>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../admin/index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a></li>
+              <li><a class="dropdown-item" href="#"><span><img src="../images/setting.png" alt=""></span>Setting</a></li>
+            </ul>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+              </svg>
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home
+                  <img src="../images/green-icon.png" alt="">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../courses.html">Courses
+                  <img src="../images/green-icon.png" alt=""></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../about.html">About
+                  <img src="../images/green-icon.png" alt=""></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact.html">Contact
+                  <img src="../images/green-icon.png" alt=""></a>
+              </li>
+            </ul>
+            <div class="dropdown ms-auto user-menu-for-pc">
+              <button class="btn btn-secondary dropdown-toggle user-name-nav " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="../images/men.jpg" alt="">
+                <h3>User Name</h3>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="../admin/index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a></li>
+                <li><a class="dropdown-item" href="#"><span><img src="../images/setting.png" alt=""></span>Setting</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- === end main-menu === -->
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <!-- ==== start side menu ==== -->
+      <div class="col-lg-2 col-md-3 mg-n">
+        <div class="dashboard-profile">
+            <div class="profile">
+              <div class="user-img">
+                <img src="../images/men.jpg" alt="" id="photo">
+                <input type="file" id="file">
+                <label for="file" id="uploadbtn"><p>Edit image<br><i class="far fa-edit"></i></p></label>
+              </div>
+              <div class="pro-text">
+                <h3>Ahmed</h3>
+                <span>ahmed_123</span>
+              </div>
+            </div>
+            <div class="side-menu">
+              <a href="index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a>
+              <a href="profile.html"><span><img src="../images/profile.png" alt=""></span>Profile </a>
+              <a class="active" href="coures.html"><span><img src="../images/course.png" alt=""></span>Coures</a>
+              <a href="my-unity.html"><span><img src="../images/my-unity.png" alt=""></span>My Unity</a>
+              <a href="finance.html"><span><img src="../images/finance.png" alt=""></span>Finance</a>
+              <a href="ranking.html"><span><img src="../images/ranking.png" alt=""></span>Ranking</a>
+            </div>
+            <div class="dropdown extra-nav">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" style="height: 30px; width: 30px; color:black;" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 4.5h14.25M3 9h9.75M3 13.5h9.75m4.5-4.5v12m0 0-3.75-3.75M17.25 21 21 17.25" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li> <a href="index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a></li>
+                <li><a href="profile.html"><span><img src="../images/profile.png" alt=""></span>Profile </a></li>
+                <li><a class="active" href="coures.html"><span><img src="../images/course.png" alt=""></span>Coures</a></li>
+                <li><a href="my-unity.html"><span><img src="../images/my-unity.png" alt=""></span>My Unity</a></li>
+                <li><a href="finance.html"><span><img src="../images/finance.png" alt=""></span>Finance</a></li>
+                <li><a href="ranking.html"><span><img src="../images/ranking.png" alt=""></span>Ranking</a></li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      <!-- ==== end side menu ==== -->
+      <div class="col-lg-10 col-md-9 right-dashboard">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="course-search">
+                <div class="search-category">
+                  <h3>Category</h3>
+                  <div class="dropdown extra-nav">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Select category
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a href="../leanguage-skil.html"><span><img src="../images/c-img1.png" alt=""></span>Leanguage Skill</a></li>
+                      <li><a href="../development.html"><span><img src="../images/c-img2.png" alt=""></span>Development</a></li>
+                      <li><a href="../marketing.html"><span><img src="../images/c-img3.png" alt=""></span>Marketing</a></li>
+                      <li><a href="../design.html"><span><img src="../images/c-img4.png" alt=""></span>Design</a></li>
+                      <li><a href="../data-entry.html"><span><img src="../images/c-img5.png" alt=""></span>Data Entry</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="search-category">
+                  <h3>Search Product</h3>
+                  <input type="search" placeholder="Search here.....">
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-12">
+              <div class="p-course-titel">
+                <h3>Purchased Course</h3>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="course-single">
+                <div class="course-name">
+                  <img src="../images/course-thubmnail.png" alt="">
+                  <div class="c-name">
+                    <h3>Course Name</h3>
+                    <p>Uploaded 01/01/2024</p>
+                  </div>
+                </div>
+                <div class="course-fee">
+                  <h4><span><i>3000$</i></span>2000$</h4>
+                  <a href="#">Visit Course <div class="after"></div></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="course-single">
+                <div class="course-name">
+                  <img src="../images/course-thubmnail.png" alt="">
+                  <div class="c-name">
+                    <h3>Course Name</h3>
+                    <p>Uploaded 01/01/2024</p>
+                  </div>
+                </div>
+                <div class="course-fee">
+                  <h4><span><i>3000$</i></span>2000$</h4>
+                  <a href="#">Visit Course <div class="after"></div></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="course-single">
+                <div class="course-name">
+                  <img src="../images/course-thubmnail.png" alt="">
+                  <div class="c-name">
+                    <h3>Course Name</h3>
+                    <p>Uploaded 01/01/2024</p>
+                  </div>
+                </div>
+                <div class="course-fee">
+                  <h4><span><i>3000$</i></span>2000$</h4>
+                  <a href="#">Visit Course <div class="after"></div></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="course-single">
+                <div class="course-name">
+                  <img src="../images/course-thubmnail.png" alt="">
+                  <div class="c-name">
+                    <h3>Course Name</h3>
+                    <p>Uploaded 01/01/2024</p>
+                  </div>
+                </div>
+                <div class="course-fee">
+                  <h4><span><i>3000$</i></span>2000$</h4>
+                  <a href="#">Visit Course <div class="after"></div></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="course-single">
+                <div class="course-name">
+                  <img src="../images/course-thubmnail.png" alt="">
+                  <div class="c-name">
+                    <h3>Course Name</h3>
+                    <p>Uploaded 01/01/2024</p>
+                  </div>
+                </div>
+                <div class="course-fee">
+                  <h4><span><i>3000$</i></span>2000$</h4>
+                  <a href="#">Visit Course <div class="after"></div></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="course-single">
+                <div class="course-name">
+                  <img src="../images/course-thubmnail.png" alt="">
+                  <div class="c-name">
+                    <h3>Course Name</h3>
+                    <p>Uploaded 01/01/2024</p>
+                  </div>
+                </div>
+                <div class="course-fee">
+                  <h4><span><i>3000$</i></span>2000$</h4>
+                  <a href="#">Visit Course <div class="after"></div></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="course-single">
+                <div class="course-name">
+                  <img src="../images/course-thubmnail.png" alt="">
+                  <div class="c-name">
+                    <h3>Course Name</h3>
+                    <p>Uploaded 01/01/2024</p>
+                  </div>
+                </div>
+                <div class="course-fee">
+                  <h4><span><i>3000$</i></span>2000$</h4>
+                  <a href="#">Visit Course <div class="after"></div></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="course-single">
+                <div class="course-name">
+                  <img src="../images/course-thubmnail.png" alt="">
+                  <div class="c-name">
+                    <h3>Course Name</h3>
+                    <p>Uploaded 01/01/2024</p>
+                  </div>
+                </div>
+                <div class="course-fee">
+                  <h4><span><i>3000$</i></span>2000$</h4>
+                  <a href="#">Visit Course <div class="after"></div></a>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="col-md-12 col-lg-12">
+              <div class="n-course-titel">
+                <h3>New Courses</h3>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="course-single">
+                <div class="course-name">
+                  <img src="../images/course-thubmnail.png" alt="">
+                  <div class="c-name">
+                    <h3>Course Name</h3>
+                    <p>Uploaded 01/01/2024</p>
+                  </div>
+                </div>
+                <div class="course-fee">
+                  <h4><span><i></i></span>2000$</h4>
+                  <a href="#">Visit Course <div class="after"></div></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="course-single">
+                <div class="course-name">
+                  <img src="../images/course-thubmnail.png" alt="">
+                  <div class="c-name">
+                    <h3>Course Name</h3>
+                    <p>Uploaded 01/01/2024</p>
+                  </div>
+                </div>
+                <div class="course-fee">
+                  <h4><span><i></i></span>2000$</h4>
+                  <a href="#">Visit Course <div class="after"></div></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="course-single">
+                <div class="course-name">
+                  <img src="../images/course-thubmnail.png" alt="">
+                  <div class="c-name">
+                    <h3>Course Name</h3>
+                    <p>Uploaded 01/01/2024</p>
+                  </div>
+                </div>
+                <div class="course-fee">
+                  <h4><span><i></i></span>2000$</h4>
+                  <a href="#">Visit Course <div class="after"></div></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="course-single">
+                <div class="course-name">
+                  <img src="../images/course-thubmnail.png" alt="">
+                  <div class="c-name">
+                    <h3>Course Name</h3>
+                    <p>Uploaded 01/01/2024</p>
+                  </div>
+                </div>
+                <div class="course-fee">
+                  <h4><span><i></i></span>2000$</h4>
+                  <a href="#">Visit Course <div class="after"></div></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="course-single">
+                <div class="course-name">
+                  <img src="../images/course-thubmnail.png" alt="">
+                  <div class="c-name">
+                    <h3>Course Name</h3>
+                    <p>Uploaded 01/01/2024</p>
+                  </div>
+                </div>
+                <div class="course-fee">
+                  <h4><span><i></i></span>2000$</h4>
+                  <a href="#">Visit Course <div class="after"></div></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="course-single">
+                <div class="course-name">
+                  <img src="../images/course-thubmnail.png" alt="">
+                  <div class="c-name">
+                    <h3>Course Name</h3>
+                    <p>Uploaded 01/01/2024</p>
+                  </div>
+                </div>
+                <div class="course-fee">
+                  <h4><span><i></i></span>2000$</h4>
+                  <a href="#">Visit Course <div class="after"></div></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="course-single">
+                <div class="course-name">
+                  <img src="../images/course-thubmnail.png" alt="">
+                  <div class="c-name">
+                    <h3>Course Name</h3>
+                    <p>Uploaded 01/01/2024</p>
+                  </div>
+                </div>
+                <div class="course-fee">
+                  <h4><span><i></i></span>2000$</h4>
+                  <a href="#">Visit Course <div class="after"></div></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="course-single">
+                <div class="course-name">
+                  <img src="../images/course-thubmnail.png" alt="">
+                  <div class="c-name">
+                    <h3>Course Name</h3>
+                    <p>Uploaded 01/01/2024</p>
+                  </div>
+                </div>
+                <div class="course-fee">
+                  <h4><span><i></i></span>2000$</h4>
+                  <a href="#">Visit Course <div class="after"></div></a>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="col-md-12">
+              <div class="next-page-loder">
+                <div class="blind">s</div>
+                <div class="next-page">
+                  <a href="#">Next Page</a>
+                </div>
+                <div class="page-number">
+                  <h4>Pages<a class="active" href="#">1</a>of <a href="#">12</a></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+<script src="../js/jquery.sticky.js"></script>
+<script src="../js/custom.js"></script>
+
+</body>
+</html>

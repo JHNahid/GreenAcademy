@@ -1,0 +1,858 @@
+@media only screen and (max-width: 1287px){
+    .container-box .right-dashboard-coures .fast-border .country .u{
+        width: 100%;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+    .container-box .right-dashboard-coures .fast-border .country{
+        flex-wrap: wrap;
+    }
+    .head-hero .conner img{
+        height: 145px;
+        width: 145px;
+    }
+}
+
+
+@media only screen and (max-width: 1182px){
+    .head-hero .conner img {
+        height: 100px;
+        width: 100px;
+    }
+	.container-box .right-dashboard .level-box .box img{
+        height: 50px;
+        width: auto;
+    }
+    .container-box .right-dashboard .level-box .box .box-text h4{
+        font-size: 12px;
+    }
+    .container-box .right-dashboard .level-box .box .box-text h3{
+        font-size: 22px;
+    }
+    .container-box .right-dashboard .main-screen-lvbox .main-screen-box .main-screen-box-text h4{
+        font-size: 13px;
+    }
+    .container-box .right-dashboard .main-screen-lvbox .main-screen-box .main-screen-box-text h3 {
+        font-size: 26px;
+    }
+    .container-box .right-dashboard .main-screen-lvbox .main-screen-box img{
+        height: 52px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1120px){
+	.container .right-dashboard .income-box .ib-text h3{
+        font-size: 18px;
+    }
+    .container .right-dashboard .income-box .ib-text h3{
+        font-size: 18px;
+    }
+    .container .right-dashboard .pl{
+        padding-left: 28px;
+    }
+    .container .right-dashboard .copy-text-box .main-box .live-date{
+        justify-content: space-between;
+    }
+    .container .right-dashboard .rank-up .top-men-box .pic{
+        height: 100px;
+        width: 100px;
+    }
+    .container .right-dashboard .rank-up .top-men-box .pic .position{
+        transform: translateX(35px);
+    }
+    .container .right-dashboard .rank-up .top-name img{
+        width: 200px;
+        height: auto;
+    }    
+    .container .right-dashboard .rank-up .first .top-name h3{
+        font-size: 16px;
+    }
+    .container .right-dashboard .rank-up .second .top-name h3 {
+        font-size: 16px;
+    }
+    .container .right-dashboard .rank-up .thard .top-name h3{
+        font-size: 16px;
+    }
+    .container .right-dashboard .rank-up .thard .top-name {
+        margin-top: -20px;
+        margin-left: -40px;
+    }
+    .container .right-dashboard .rank-up .thard .top-name h3{
+        margin-left: 40px;
+    }
+    .container .right-dashboard .rank-up .first .top-name{
+        margin-top: -25px;
+    }
+    .container .right-dashboard .rank-up .first .top-name h3{
+        margin-left: 70px;
+    }
+    .container .right-dashboard .rank-up .second .top-name{
+        margin-top: -20px;
+    }
+    .container .right-dashboard .rank-up .second .top-name h3{
+        margin-left: 60px;
+        margin-bottom: 2px;
+    }
+    .our-course .course-slider button.owl-prev {
+        left: 0;
+    }
+    .our-course .course-slider button.owl-next {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 1057px){
+    .container .dashboard-profile .side-menu a{
+        font-size: 17px;
+    }
+    .footer .pt1{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 991px){
+    .menu .navbar .container-fluid .navbar-nav{
+        display: flex;
+        align-items: flex-start;
+    }
+    .menu .navbar .container-fluid .navbar-nav li .active img {
+        top: 15px;
+        right: -50%;
+    }
+    .menu .navbar .container-fluid .user-menu-for-mobile{
+        display: inline;
+    }
+    .menu .navbar .container-fluid .user-menu-for-pc{
+        display: none;
+    }
+    .menu .navbar .container-fluid .login-for-mobile{
+        display: inline;
+    }
+    .menu .navbar .container-fluid .login-for-pc{
+        display: none;
+    }
+    .container .dashboard-profile .side-menu a{
+        font-size: 20px;
+    }
+    header .menu .navbar .container-fluid .user-name-nav{
+        justify-content: left;
+    }
+    button.navbar-toggler{
+        border: none;
+        box-shadow: none;
+        outline: none;
+        padding: 0;
+        color: black;
+    }
+    button.navbar-toggler:focus{
+        box-shadow: none;
+    }
+    div#navbarNavAltMarkup {
+        margin-top: 15px;
+    }
+    header .menu .navbar .container-fluid .navbar-nav a{
+        padding: 10px;
+    }
+    .container .right-dashboard .balance-box{
+        margin-bottom: 20px;
+    }
+    .container .right-dashboard .main-screen-lvbox .main-screen-box .main-screen-box-text h3 {
+        font-size: 20px;
+    }
+    .container .right-dashboard .main-screen-lvbox .main-screen-box .main-screen-box-text h4 {
+        font-size: 12px;
+    }
+    .container .right-dashboard .main-screen-lvbox .main-screen-box img {
+        height: 48px;
+    }
+    .container .right-dashboard .pl{
+        padding: 28px;
+        padding-right: 10px;
+    }
+    .container .right-dashboard .copy-text-box .main-box .copyfield{
+        flex-wrap: wrap;
+    }
+    .container .right-dashboard .copy-text-box .main-box{
+        align-items: normal;
+    }
+    .container .right-dashboard .pamant-mathod h3{
+        flex-wrap: wrap;
+    }
+    .container .right-dashboard .nav-pills .nav-item button h4{
+        font-size: 12px;
+    }
+    .container .right-dashboard .nav-pills .nav-item button img{
+        height: 30px;
+    }
+    .container .right-dashboard .resume-box h4 {
+        font-size: 16px;
+    }
+    .container .right-dashboard .resume-box h4 span{
+        font-size: 14px;
+    }
+    .container .right-dashboard .resume-about h4{
+        font-size: 16px;
+    }
+    .container .right-dashboard .resume-about p{
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .container .right-dashboard .social-box h4 {
+        font-size: 16px;
+    }
+    .container .right-dashboard .social-box .social-media .social-network h5{
+        font-size: 14px;
+    }
+    .container .right-dashboard .social-box .social-media .social-network img {
+        margin-top: -3px;
+    }
+    .footer .pt3{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 855px){
+    .container .right-dashboard .copy-text-box .main-box .copyfield #link{
+        width: 240px;
+    }
+    .head-hero .head-text-box .title h1 {
+        font-size: 45px;
+    }
+    .head-hero .head-text-box .title p{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 823px){
+    .container .right-dashboard .copy-text-box .main-box .live-date {
+        width: 193px;
+    }
+    .head-hero .image{
+        max-width: 450px;
+    }
+    .head-hero .head-text-box .title h2 {
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .head-hero .image {
+        display: none;
+    }
+    .about-page .ft {
+        flex-direction: column-reverse;
+    }
+    .container .dashboard-profile{
+        padding: 20px;
+    }
+    header .menu .navbar .container-fluid {
+        padding: 0px 20px;
+    }
+    .video-part .main-video{
+        height: 350px;
+    }
+    .container .dashboard-profile .side-menu{
+        display: flex;
+    }
+	.container .dashboard-profile .side-menu a{
+        margin: 10px 15px;
+        justify-content: center;
+    }
+    .container .dashboard-profile .side-menu a span{
+        margin: 0;
+    }
+    .container .right-dashboard .copy-text-box .main-box .copyfield #copy-btn {
+        margin-top: 0px;
+    }
+    .container .right-dashboard-coures .fast-border .country .u{
+        width: 100%;
+    }
+    .video-part .video-details {
+        margin-bottom: 20px;
+    }
+    .footer {
+        padding-top: 115px;
+        padding-bottom: 30px;
+    }
+    .footer .pt1 {
+        justify-content: flex-start;
+    }
+    .footer .pt3{
+        justify-content: flex-start;
+        margin-top: 30px;
+    }
+    .trending-course .trending-course-all {
+        justify-content: space-around;
+    }
+    .live-support {
+        bottom: 30px;
+        right: 30px;
+    }
+}
+
+
+
+@media only screen and (max-width: 701px){
+    .container .dashboard-profile .side-menu a{
+        font-size: 16px;
+    }
+    .container .dashboard-profile .side-menu a span img {
+        height: 26px;
+        width: 26px;
+    }
+    .container .right-dashboard .rank-up{
+        justify-content: space-between;
+    }
+    .container .right-dashboard .rank-up .thard{
+        margin-left: 30px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 635px){
+    .container .right-dashboard .level-box {
+        display: inline;
+    }
+    .container .right-dashboard .main-screen-lvbox{
+        display: none;
+    }
+    .container .right-dashboard .level-box .box {
+        width: 150px;
+    }
+    .container .right-dashboard .level-box .box img{
+        height: 40px;
+    }
+    .container .right-dashboard .level-box .box .box-text h3 {
+        font-size: 20px;
+    }
+    .container .right-dashboard .copy-text-box .main-box .copyfield #copy-btn{
+        margin-top: 0px;
+    }
+    .container .right-dashboard .star-titel-name h2{
+        font-size: 30px;
+    }
+    .container .right-dashboard .rank-up .top-men-box .pic{
+        height: 80px;
+        width: 80px;
+    }
+    .container .right-dashboard .rank-up .top-men-box .pic .position h4{
+        font-size: 8px;
+    }
+    
+    .container .right-dashboard .rank-up .top-men-box .pic .position{
+        transform: translateX(25px);
+    }
+}
+
+@media only screen and (max-width: 628px){
+    .container .dashboard-profile .side-menu a{
+        font-size: 16px;
+    }
+    .container .dashboard-profile .side-menu a span img {
+        height: 26px;
+        width: 26px;
+    }
+    .container .right-dashboard .level-box{
+        flex-wrap: wrap;
+    }
+    .container .right-dashboard .level-box .box{
+        margin-right: 0px;
+    }
+    .container .right-dashboard .nav-pills .nav-item .active{
+        border-radius: 4px;
+    }
+    .container .right-dashboard .nav-pills{
+        border-radius: 4px;
+        box-shadow: 2px 2px 4px 0px #88888840;
+    }
+}
+
+
+
+@media only screen and (max-width: 611px){
+    .container .dashboard-profile .side-menu {
+        display: none;
+    }
+    .container .dashboard-profile .extra-nav{
+        display: inline;
+    }
+    .container .dashboard-profile {
+        padding: 10px 0px;
+    }
+    .container .dashboard-profile .profile{
+        flex-direction: row;
+    }
+    .container .dashboard-profile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .container .dashboard-profile .profile .user-img{
+        height: 60px;
+        width: 60px;
+        margin-right: 10px;
+    }
+    .container .dashboard-profile .profile .user-img #uploadbtn p {
+        font-size: 8px;
+        margin: 0;
+        color: white;
+        line-height: 12px;
+    }
+    .container .dashboard-profile .profile {
+        text-align: left;
+        margin-left: 8px;
+    }
+    .container .right-dashboard .copy-text-box .main-box {
+        flex-wrap: wrap;
+    }
+    .container .right-dashboard .copy-text-box .main-box .copyfield #copy-btn{
+        margin-top: 0px;
+    }
+    .container .right-dashboard .rank-up .top-name img{
+        width: 165px;
+    }
+    .container .right-dashboard .rank-up .top-men-box .pic .position{
+        height: 18px;
+        width: 18px;
+        bottom: -4px;
+    }
+    .container .right-dashboard .rank-up .first .top-name{
+        margin-left: -45px;
+    }
+    .container .right-dashboard .rank-up .second .top-name{
+        margin-left: -45px;
+    }
+    .container .right-dashboard .rank-up .first .top-name h3 {
+        margin-left: 45px;
+    }
+    .container .right-dashboard .rank-up .second .top-name h3{
+        margin-left: 40px;
+    }
+    .container .right-dashboard .rank-up .top-men-box .pic .position h4{
+        margin-top: 1px;
+    }
+    .container .right-dashboard .rank-up .first .top-name h3{
+        font-size: 12px;
+    }
+    .container .right-dashboard .rank-up .second .top-name h3{
+        font-size: 12px;
+    }
+    .container .right-dashboard .rank-up .thard .top-name h3{
+        font-size: 12px;
+    }
+    .container .right-dashboard .ranking-tabel .table-box .table-head .table-cell p{
+        font-size: 14px;
+    }
+    .container .right-dashboard .ranking-tabel .table-box .table-secon .table-cell p {
+        font-size: 14px;
+    }
+    .container .right-dashboard .ranking-tabel .table-box .table-secon .table-cell .pic-img .pic{
+        height: 35px;
+        width: 35px;
+    }
+}
+
+@media only screen and (max-width: 583px){
+    .container .right-dashboard-coures .fast-border .country{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .container .right-dashboard-coures .fast-border .country .u {
+        margin-top: 15px;
+        margin-right: 0;
+    }
+    .container .right-dashboard-coures .second-border .cont a{
+        font-size: 14px;
+    }
+    .container .right-dashboard-coures .update a{
+        font-size: 14px;
+    }
+    .container .right-dashboard .next-page-loder .blind{
+        display: none;
+    }
+    .container .right-dashboard .next-page-loder .next-page {
+        margin-top: 0px;
+    }
+    .container .right-dashboard .next-page-loder{
+        margin-top: 10px;
+    }
+    .container .right-dashboard .refar-table .table-box .table-head .table-cell p{
+        font-size: 14px;
+    }
+    .container .right-dashboard .refar-table .table-box .table-secon .table-cell p{
+        font-size: 14px;
+    }
+    .container .right-dashboard .ranking-tabel .table-box .table-secon {
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width:575px){
+    .global-title h2{
+        font-size: 25px;
+    }
+    section{
+        padding: 20px 0;
+    }
+    .menu .navbar .container-fluid .user-name-nav h3{
+        font-size: 13px;
+    }
+    .menu .navbar .container-fluid .user-name-nav img {
+        height: 35px;
+        width: 35px;
+    }
+    .container .right-dashboard .copy-text-box .main-box .live-date {
+       margin-top: 10px;
+    }
+    .course-page .titel p span {
+        display: inline;
+    }
+    .course-page .course-part-one .video-box{
+        margin: 10px 60px;
+    }
+    .footer .pt2{
+        justify-content: flex-start;
+        margin-top: 30px;
+    }
+
+}
+
+@media only screen and (max-width:500px){
+    .news .news-slider .news-box{
+        margin: 10px 30px;
+    }
+    .newsletter .newsletter-box {
+        padding: 20px 15px;
+    }
+    .video-part .main-video {
+        height: 300px;
+    }
+    .video-part .main-video .play span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        background: white;
+        color: #0c8a51;
+        font-size: 39px;
+    }
+    .video-part .video-tab .tab-content .tab-pane p{
+        font-size: 16px;
+    }
+    .video-part .video-tab .tab-content .tab-pane .video-reviews P {
+        font-size: 16px;
+    }
+    .video-part .video-tab .tab-content .tab-pane .video-tracker h3{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 491px){
+    .menu .navbar .container-fluid {
+        padding: 0px 20px;
+    }
+    .container .right-dashboard .pamant-mathod h3 span{
+        margin-top: 10px;
+    }
+    .container .right-dashboard .pamant-mathod h3 a{
+        margin-top: 10px;
+    }
+    .container .right-dashboard .rank-up .top-men-box .pic {
+        height: 60px;
+        width: 60px;
+    }
+    .container .right-dashboard .rank-up .top-men-box .pic .position {
+        transform: translateX(18px);
+    }
+    .container .right-dashboard .rank-up .top-name img{
+        width: 145px;
+    }
+    .container .right-dashboard .rank-up .thard .top-name {
+        margin-top: -15px;
+        margin-left: -30px;
+    }
+    .container .right-dashboard .rank-up .thard {
+        margin-left: 20px;
+    }
+    .container .right-dashboard .rank-up .first .top-name {
+        margin-left: -40px;
+        margin-top: -20px;
+    }
+    .container .right-dashboard .rank-up .second .top-name{
+        margin-left: -40px;
+        margin-top: -16px;
+    }
+}
+
+
+
+@media only screen and (max-width: 442px){
+    .head-hero .head-text-box .title h1 {
+        font-size: 40px;
+    }
+    .menu .navbar .container-fluid .user-name-nav h3{
+        display: none;
+    }
+    .menu .navbar .container-fluid .user-name-nav img {
+       margin: 0;
+    }
+    .menu .navbar .container-fluid ul.dropdown-menu.show {
+        margin-top: 12px;
+        transform: translateX(-50%);
+    }
+    .head-hero .head-text-box .search-box {
+        width: 355px;
+    }
+    .newsletter .newsletter-box .nb-right .nb-search-box {
+        width: 340px;
+    }
+    .video-part .main-video {
+        height: 250px;
+    }
+    .container .right-dashboard .p-course .course-box .course-name .c-name h3{
+        font-size: 16px;
+    }
+    .container .right-dashboard .p-course .course-box .course-fee h4{
+        font-size: 16px;
+    }
+    .container .right-dashboard .p-course .course-box .course-name .c-name p {
+        line-height: 16px;
+        font-size: 12px;
+    }
+    .container .right-dashboard .p-course .course-box .course-fee h4 span{
+        margin-right: 0;
+        font-size: 14px;
+    }
+    .container .right-dashboard .n-course .course-box .course-fee h4 span {
+        font-size: 14px !important;
+        margin-right: 0;
+    }
+    .container .right-dashboard .course-box .course-name .c-name h3{
+        font-size: 16px;
+    }
+    .container .right-dashboard .course-box .course-name .c-name p{
+        font-size: 12px;
+    }
+    .container .right-dashboard .course-box .course-fee h4{
+        font-size: 16px;
+        line-height: 12px;
+    }
+    .container .right-dashboard .course-box .course-fee h4 span{
+        font-size: 14px;
+        display: block;
+        margin-right: 0;
+    }
+    .container .right-dashboard .course-box .course-name .c-name p {
+        line-height: 16px;
+    }
+    .container .right-dashboard .course-box .course-fee a{
+        font-size: 12px;
+        width: 85px;
+    }
+    .container .right-dashboard .nav-pills .nav-item .active {
+        padding: 0;
+    }
+    .container .right-dashboard .nav-pills .nav-item button{
+        padding: 0;
+    }
+    .course-page .course-part-one .video-box {
+        margin: 10px 30px;
+    }
+    .course-page .search-box {
+        width: 355px;
+    }
+}
+
+
+@media only screen and (max-width: 397px){
+    .container .dashboard-profile .side-menu{
+        margin-top: 15px;
+    }
+    .news .news-slider .news-box{
+        margin: 10px;
+    }
+    .video-part .video-tab .nav-pills .tab-item button{
+        font-size: 15px;
+    }
+    .video-part .video-tab .nav-pills .nav-link.active{
+        font-size: 15px;
+    }
+    .container .right-dashboard .p-course .course-box .course-name .c-name h3 {
+        font-size: 16px;
+    }
+    .container .right-dashboard .p-course .course-box .course-name .c-name p{
+        font-size: 12px;
+    }
+    .container .right-dashboard .p-course .course-box .course-fee h4{
+        font-size: 16px;
+    }
+    .container .right-dashboard .p-course .course-box .course-fee h4 span{
+        font-size: 14px;
+    }
+    .container .right-dashboard .p-course .course-box .course-fee a{
+        font-size: 12px;
+        width: 85px;
+    }
+    .container .right-dashboard .n-course .course-box .course-name .c-name h3{
+        font-size: 16px;
+    }
+    .container .right-dashboard .n-course .course-box .course-name .c-name p{
+        font-size: 12px;
+    }
+    .container .right-dashboard .n-course .course-box .course-fee h4 {
+        font-size: 16px;
+    }
+    .container .right-dashboard .n-course .course-box .course-fee a{
+        font-size: 12px;
+        width: 85px;
+    }
+    .container .right-dashboard .next-page-loder{
+        flex-wrap: wrap;
+    }
+    
+    .container .right-dashboard .course-search{
+        flex-wrap: wrap;
+    }
+    .container .right-dashboard .course-search .search-category{
+        margin-top: 15px;
+    }
+    .container .right-dashboard .refar-table .table-box .table-secon .table-cell p {
+        font-size: 12px;
+    }
+    .container .right-dashboard .rank-up .thard .top-name h3 {
+        font-size: 10px;
+        margin-left: 30px;
+    }
+    .container .right-dashboard .rank-up .first .top-name h3 {
+        font-size: 10px;
+    }
+    .container .right-dashboard .rank-up .second .top-name h3 {
+        font-size: 10px;
+    }
+    .container .dashboard-profile .profile .user-img{
+        height: 50px;
+        width: 50px;
+        margin-right: 10px;
+    }
+    .container .dashboard-profile .profile .pro-text h3{
+        font-size: 16px;
+    }
+    .container .dashboard-profile .profile .pro-text span {
+        font-size: 14px;
+    }
+    .container .right-dashboard .star-titel-name{
+        margin-top: 20px;
+    }
+    .container .right-dashboard .ranking-tabel .table-box .table-secon {
+        margin: 8px 0;
+    }
+}
+
+@media only screen and (max-width: 382px){
+    .container .right-dashboard .copy-text-box .main-box .copyfield #copy-btn{
+        margin-top: 5px;
+    }
+    .head-hero .head-text-box .title h2 {
+        font-size: 40px;
+    }
+    .head-hero .head-text-box .search-box input {
+        width: 215px;
+    }
+    .head-hero .head-text-box .search-box {
+        width: 328px;
+    }
+    .newsletter .newsletter-box .nb-right .nb-search-box {
+        width: 295px;
+    }
+    .course-page .course-part-one .video-box {
+        margin: 10px 0px;
+    }
+    .course-page .search-box {
+        width: 328px;
+    }
+}
+
+
+@media only screen and (max-width: 355px){
+    .container .right-dashboard .star-titel-name h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .container .right-dashboard .rank-up .top-men-box .pic .position{
+        height: 15px;
+        width: 15px;
+    }
+    .container .right-dashboard .nav-pills .nav-item button h4 {
+        font-size: 10px;
+    }
+    .head-hero .head-text-box .search-box input {
+        width: 150px;
+    }
+    .video-part .video-tab .nav-pills .tab-item button {
+        padding: 8px;
+    }
+}
+
+
+
+@media only screen and (max-width: 342px){
+    p{
+        font-size: 16px;
+    }
+    .head-hero .head-text-box .title h1 {
+        font-size: 35px;
+    }
+    .head-hero .head-text-box .title h2 {
+        font-size: 35px;
+    }
+    .head-hero .head-text-box .title p {
+        font-size: 16px;
+    }
+    .newsletter .newsletter-box .nb-left h2{
+        font-size: 25px;
+    }
+    .newsletter .newsletter-box .nb-left p {
+        font-size: 16px;
+    }
+    .newsletter .newsletter-box {
+        padding: 20px 10px;
+    }
+    .newsletter .newsletter-box .nb-right .nb-search-box input{
+        font-size: 14px;
+    }
+    .newsletter .newsletter-box .nb-right .nb-search-box button {
+        padding: 5px 10px;
+        width: auto;
+        font-size: 14px;
+    }
+    .newsletter .newsletter-box .nb-right .nb-search-box {
+        width: 270px;
+    }
+    .course-page .search-box input {
+        width: 140px;
+    }
+}
+
+
+@media only screen and (max-width: 315px){
+    .container .right-dashboard .next-page-loder{
+        justify-content: center;
+    }
+    .container .right-dashboard .next-page-loder .page-number{
+        margin-top: 10px;
+    }
+    .container .right-dashboard .course-box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .container .right-dashboard .course-box .course-fee{
+        margin-top: 10px;
+    }
+}
