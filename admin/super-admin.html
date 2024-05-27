@@ -25,233 +25,257 @@
     
 </head>
 <body>
-  <!-- ------ header start ------ -->
-  <header>
-    <!-- === start main menu === -->
-    <div class="menu">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"><img src="../images/logo-1.png" alt=""></a>
-          <div class="dropdown ms-auto user-menu-for-mobile">
-            <button class="btn btn-secondary dropdown-toggle user-name-nav" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-              
-              <h3>Admission</h3>
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="../admin/index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a></li>
-              <li><a class="dropdown-item" href="#"><span><img src="../images/setting.png" alt=""></span>Setting</a></li>
-            </ul>
-          </div>
-          
-          
+    <section id="admin">
+        <!-- ------ header start ------ -->
+        <header>
+            <!-- === start main menu === -->
+            <div class="menu">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="../index.html"><img src="../images/logo-1.png" alt=""></a>
+                        <div class="dropdown ms-auto user-menu-for-mobile">
+                            <button class="btn btn-secondary dropdown-toggle user-name-nav" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <h3>Admission</h3>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../admin/index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a></li>
+                                <li><a class="dropdown-item" href="#"><span><img src="../images/setting.png" alt=""></span>Setting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <!-- === end main-menu === -->
+        </header>
+
+        <!-- Start Dashboard Body -->
+        <div class="dashboard-container d-flex">
+            <!-- Dashboard Side Menu" -->
+            <section class="dashboard-side_menu">
+                <div class="profile">
+                    <div class="user-img">
+                        <img src="../images/men.jpg" alt="" id="photo" >
+                    </div>
+                    <h3 class="">Ahmed</h3>
+                </div>
+                <!-- = start main sidebar = -->
+                <div class="side-menu">
+                    <ul>
+                        <li>
+                            <a class="active" href="index.html"><img src="../images/dashbord.png" alt="">Dashbord</a>
+                        </li>
+                        <li>
+                            <a href="profile.html"><img src="../images/profile.png" alt=""><span>Profile</span></a>
+                        </li>
+                        <li>
+                            <a href="coures.html"><img src="../images/course.png" alt="">Coures</a>
+                        </li>
+                        <li>
+                            <a href="my-unity.html"><img src="../images/my-unity.png" alt="">My Unity</a>
+                        </li>
+                        <li>
+                            <a href="finance.html"><img src="../images/finance.png" alt="">Finance</a>
+                        </li>
+                        <li>
+                            <a href="ranking.html"><img src="../images/ranking.png" alt="">Ranking</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- = end main sidebar = -->
+                
+                <!-- = start mobile sidebar = -->
+                <div class="dropdown extra-nav">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="height: 30px; width: 30px; color:black;" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 4.5h14.25M3 9h9.75M3 13.5h9.75m4.5-4.5v12m0 0-3.75-3.75M17.25 21 21 17.25" />
+                    </svg>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="active" href="index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a></li>
+                    <li><a href="profile.html"><span><img src="../images/profile.png" alt=""></span>Profile </a></li>
+                    <li><a href="coures.html"><span><img src="../images/course.png" alt=""></span>Coures</a></li>
+                    <li><a href="my-unity.html"><span><img src="../images/my-unity.png" alt=""></span>My Unity</a></li>
+                    <li><a href="finance.html"><span><img src="../images/finance.png" alt=""></span>Finance</a></li>
+                    <li><a href="ranking.html"><span><img src="../images/ranking.png" alt=""></span>Ranking</a></li>
+                    </ul>
+                </div>
+                <!-- start mobile sidebar -->
+            </section>
+            <!-- Dashboard Body details -->
+            <section class="dashboard-body-details right-dashboard pb-5">
+                <!-- Referral Part -->
+                <div class="row referral-part ">
+                    <div class="col-md-8">
+                        <div class="referral-code-part copy-text-box">
+                            <h3 class="dashboard-title">Affiliate link</h3>
+                            <div class="main-box">
+                                <div class="copyfield">
+                                    <span id="link">2 5 6 3 8 9</span>
+                                    <button id="copy-btn">Copy link <div class="after"></div></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="live-date">
+                            <div id="liveDateTime"></div>
+                            <img src="../images/clander.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- Dashboard Overview -->
+                <div class="row dashborad-overview pt-2">
+                    <h3 class="dashboard-title">Overview</h3>
+                    <div class="col-md-4">
+                        <div class="balance-box dashboard-double-box">
+                            <img src="../images/AB.png" alt="">
+                            <h4>Account Balance</h4>
+                            <h3>10,999</h3>
+                            <div class="line"></div>
+                            <a href="#" class="db">
+                                <img src="../images/DB.png" alt="">
+                                <h5>Deposit Balance +</h5>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="income-box dashboard-single-box">
+                                    <div class="ib-img">
+                                    <img src="../images/income-1.png" alt="">
+                                    </div>
+                                    <div class="ib-text">
+                                    <h3>Daily Income</h3>
+                                    <p>10,000$</p>
+                                    </div>
+                                    <div class="conner">
+                                    <img src="../images/income-conner.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="income-box dashboard-single-box">
+                                    <div class="ib-img">
+                                    <img src="../images/income-1.png" alt="">
+                                    </div>
+                                    <div class="ib-text">
+                                    <h3>Daily Income</h3>
+                                    <p>10,000$</p>
+                                    </div>
+                                    <div class="conner">
+                                    <img src="../images/income-conner.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="income-box dashboard-box-single">
+                                    <div class="ib-img">
+                                    <img src="../images/income-1.png" alt="">
+                                    </div>
+                                    <div class="ib-text">
+                                    <h3>Daily Income</h3>
+                                    <p>10,000$</p>
+                                    </div>
+                                    <div class="conner">
+                                    <img src="../images/income-conner.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="income-box dashboard-single-box">
+                                    <div class="ib-img">
+                                    <img src="../images/income-1.png" alt="">
+                                    </div>
+                                    <div class="ib-text">
+                                    <h3>Daily Income</h3>
+                                    <p>10,000$</p>
+                                    </div>
+                                    <div class="conner">
+                                    <img src="../images/income-conner.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="income-box dashboard-single-box">
+                            <div class="ib-img">
+                            <img src="../images/income-1.png" alt="">
+                            </div>
+                            <div class="ib-text">
+                            <h3>Daily Income</h3>
+                            <p>10,000$</p>
+                            </div>
+                            <div class="conner">
+                            <img src="../images/income-conner.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="income-box dashboard-single-box">
+                            <div class="ib-img">
+                            <img src="../images/income-1.png" alt="">
+                            </div>
+                            <div class="ib-text">
+                            <h3>Daily Income</h3>
+                            <p>10,000$</p>
+                            </div>
+                            <div class="conner">
+                            <img src="../images/income-conner.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="income-box dashboard-single-box">
+                            <div class="ib-img">
+                            <img src="../images/income-1.png" alt="">
+                            </div>
+                            <div class="ib-text">
+                            <h3>Daily Income</h3>
+                            <p>10,000$</p>
+                            </div>
+                            <div class="conner">
+                            <img src="../images/income-conner.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="income-box dashboard-single-box">
+                            <div class="ib-img">
+                            <img src="../images/income-1.png" alt="">
+                            </div>
+                            <div class="ib-text">
+                            <h3>Daily Income</h3>
+                            <p>10,000$</p>
+                            </div>
+                            <div class="conner">
+                            <img src="../images/income-conner.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="income-box dashboard-single-box">
+                            <div class="ib-img">
+                            <img src="../images/income-1.png" alt="">
+                            </div>
+                            <div class="ib-text">
+                            <h3>Daily Income</h3>
+                            <p>10,000$</p>
+                            </div>
+                            <div class="conner">
+                            <img src="../images/income-conner.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-      </nav>
-    </div>
-    <!-- === end main-menu === -->
-  </header>
-
-  <!-- Start Dashboard Body -->
-  <section id="admin">
-    <div class="dashboard-container d-flex">
-        <!-- Dashboard Side Menu" -->
-        <section class="dashboard-side_menu">
-            <div class="profile">
-                <div class="user-img">
-                    <img src="../images/men.jpg" alt="" id="photo" >
-                </div>
-                <h3 class="">Ahmed</h3>
-            </div>
-            <!-- = start main sidebar = -->
-            <div class="side-menu">
-                <ul>
-                    <li>
-                        <a class="active" href="index.html"><img src="../images/dashbord.png" alt="">Dashbord</a>
-                    </li>
-                    <li>
-                        <a href="profile.html"><img src="../images/profile.png" alt=""><span>Profile</span></a>
-                    </li>
-                    <li>
-                        <a href="coures.html"><img src="../images/course.png" alt="">Coures</a>
-                    </li>
-                    <li>
-                        <a href="my-unity.html"><img src="../images/my-unity.png" alt="">My Unity</a>
-                    </li>
-                    <li>
-                        <a href="finance.html"><img src="../images/finance.png" alt="">Finance</a>
-                    </li>
-                    <li>
-                        <a href="ranking.html"><img src="../images/ranking.png" alt="">Ranking</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- = end main sidebar = -->
-            
-            <!-- = start mobile sidebar = -->
-            <div class="dropdown extra-nav">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                <svg xmlns="http://www.w3.org/2000/svg" style="height: 30px; width: 30px; color:black;" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 4.5h14.25M3 9h9.75M3 13.5h9.75m4.5-4.5v12m0 0-3.75-3.75M17.25 21 21 17.25" />
-                </svg>
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="active" href="index.html"><span><img src="../images/dashbord.png" alt=""></span>Dashbord</a></li>
-                <li><a href="profile.html"><span><img src="../images/profile.png" alt=""></span>Profile </a></li>
-                <li><a href="coures.html"><span><img src="../images/course.png" alt=""></span>Coures</a></li>
-                <li><a href="my-unity.html"><span><img src="../images/my-unity.png" alt=""></span>My Unity</a></li>
-                <li><a href="finance.html"><span><img src="../images/finance.png" alt=""></span>Finance</a></li>
-                <li><a href="ranking.html"><span><img src="../images/ranking.png" alt=""></span>Ranking</a></li>
-                </ul>
-            </div>
-            <!-- start mobile sidebar -->
-        </section>
-
-
-        <!-- Dashboard Body details -->
-        <section class="dashboard-body-details right-dashboard">
-            <!-- Referral Part -->
-            <div class="row referral-part ">
-                <div class="col-md-8">
-                    <div class="referral-code-part copy-text-box">
-                        <h3 class="dashboard-title">Affiliate link</h3>
-                        <div class="main-box">
-                            <div class="copyfield">
-                                <span id="link">2 5 6 3 8 9</span>
-                                <button id="copy-btn">Copy link <div class="after"></div></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="live-date">
-                        <div id="liveDateTime"></div>
-                        <img src="../images/clander.png" alt="">
-                    </div>
-                </div>
-            </div>
-
-            <!-- Dashboard Overview -->
-            <div class="row dashborad-overview pt-2">
-                <h3 class="dashboard-title">Overview</h3>
-                <div class="col-md-4">
-                    <div class="balance-box">
-                        <img src="../images/AB.png" alt="">
-                        <h4>Account Balance</h4>
-                        <h3>10,999</h3>
-                        <div class="line"></div>
-                        <a href="#" class="db">
-                            <img src="../images/DB.png" alt="">
-                            <h5>Deposit Balance +</h5>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="income-box dashboard-single-box">
-                                <div class="ib-img">
-                                  <img src="../images/income-1.png" alt="">
-                                </div>
-                                <div class="ib-text">
-                                  <h3>Daily Income</h3>
-                                  <p>10,000$</p>
-                                </div>
-                                <div class="conner">
-                                  <img src="../images/income-conner.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="income-box dashboard-single-box">
-                                <div class="ib-img">
-                                  <img src="../images/income-1.png" alt="">
-                                </div>
-                                <div class="ib-text">
-                                  <h3>Daily Income</h3>
-                                  <p>10,000$</p>
-                                </div>
-                                <div class="conner">
-                                  <img src="../images/income-conner.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="income-box dashboard-single-box">
-                                <div class="ib-img">
-                                  <img src="../images/income-1.png" alt="">
-                                </div>
-                                <div class="ib-text">
-                                  <h3>Daily Income</h3>
-                                  <p>10,000$</p>
-                                </div>
-                                <div class="conner">
-                                  <img src="../images/income-conner.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="income-box dashboard-single-box">
-                                <div class="ib-img">
-                                  <img src="../images/income-1.png" alt="">
-                                </div>
-                                <div class="ib-text">
-                                  <h3>Daily Income</h3>
-                                  <p>10,000$</p>
-                                </div>
-                                <div class="conner">
-                                  <img src="../images/income-conner.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="income-box dashboard-single-box">
-                        <div class="ib-img">
-                          <img src="../images/income-1.png" alt="">
-                        </div>
-                        <div class="ib-text">
-                          <h3>Daily Income</h3>
-                          <p>10,000$</p>
-                        </div>
-                        <div class="conner">
-                          <img src="../images/income-conner.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="income-box dashboard-single-box">
-                        <div class="ib-img">
-                          <img src="../images/income-1.png" alt="">
-                        </div>
-                        <div class="ib-text">
-                          <h3>Daily Income</h3>
-                          <p>10,000$</p>
-                        </div>
-                        <div class="conner">
-                          <img src="../images/income-conner.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="income-box dashboard-single-box">
-                        <div class="ib-img">
-                          <img src="../images/income-1.png" alt="">
-                        </div>
-                        <div class="ib-text">
-                          <h3>Daily Income</h3>
-                          <p>10,000$</p>
-                        </div>
-                        <div class="conner">
-                          <img src="../images/income-conner.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-  </section>
+    </section>
   <!-- End Dashboard Body -->
 
+
+  <!--  java script here -->
   <script src="../js/jquery.min.js"></script>
   <script src="../js/bootstrap.bundle.min.js"></script>
   <script src="../js/owl.carousel.min.js"></script>
